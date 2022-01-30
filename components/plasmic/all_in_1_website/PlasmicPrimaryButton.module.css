@@ -1,0 +1,89 @@
+.root {
+  flex-direction: row;
+  background: #d9272a;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  display: flex;
+  cursor: pointer;
+  max-width: 367px;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+  border-radius: 6px;
+  padding: 20px 16px;
+  border: 1px solid transparent;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.root:hover {
+  box-shadow: 0px 30px 30px 0px #00000030;
+}
+.root:active {
+  background: #aa1517;
+}
+.svg__soDCy {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  color: #05050599;
+  flex-shrink: 0;
+}
+.freeBox {
+  height: auto;
+  width: 100%;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetChildren {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  text-transform: none;
+  line-height: 26px;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+}
+.slotTargetChildren > .__wab_text,
+.slotTargetChildren > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_text,
+.slotTargetChildren > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.svg___4ZkFe {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  color: #05050599;
+  flex-shrink: 0;
+}

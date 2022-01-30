@@ -1,0 +1,17 @@
+.root {
+  width: 496px;
+  height: 76px;
+  max-width: 100%;
+  padding-left: 30px;
+  color: #0b2b494d;
+  background: #0b2b490f;
+  position: relative;
+  border-radius: 10px;
+  border: 1px none #0b2b494d;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}

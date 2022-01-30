@@ -1,0 +1,94 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: 76px;
+  max-width: 100%;
+  position: relative;
+  background: #0b2b490f;
+  border-radius: 10px;
+  border: 1px none #0b2b494d;
+}
+.freeBox___0XxOd {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 136px;
+  height: auto;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.freeBox___0XxOd > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.freeBox___0XxOd > :global(.__wab_flex-container) > *,
+.freeBox___0XxOd > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___0XxOd > :global(.__wab_flex-container) > picture > img,
+.freeBox___0XxOd
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+}
+.img {
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+}
+.img > picture > img {
+  object-fit: contain;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: contain;
+}
+.text {
+  width: auto;
+  height: auto;
+  max-width: none;
+  margin-right: 0px;
+}
+.freeBox__dy4G {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.svg__svE0 {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.svg__hbes {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.textInput {
+  width: 359px;
+  height: 73px;
+  max-width: 100%;
+  padding-left: 23px;
+  color: #0b2b494d;
+  margin-left: 0px;
+  background: none;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: none;
+}
